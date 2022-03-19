@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="ie-edge" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>JS - Assignment Color Toggle Menu</title>
+</head>
+
+<body id="body" class="body">
+
+    <nav class="navbar">
+        <div onclick="hamburgerMenu()">
+            <img id="hamburger" src="./images/hamburger_menu.png" />
+        </div>
+        <div>
+            <h1 id="colortext"></h1>
+        </div>
+
+    </nav>
+
+    <aside>
+        <ul class="hamburger-menu slide">
+            <li id="home-button" onclick="hamburgerMenu()">
+                <input type="radio" name="color" value="home">
+                <label for="home">Home (Grey)</label>
+            </li>
+            <li id="red-button" onclick="hamburgerMenu()">
+                <input type="radio" name="color" value="red">
+                <label for="red">Red</label>
+            </li>
+            <li id="orange-button" onclick="hamburgerMenu()">
+                <input type="radio" name="color" value="orange">
+                <label for="red">Orange</label>
+            </li>
+            <li id="purple-button" onclick="hamburgerMenu()">
+                <input type="radio" name="color" value="purple">
+                <label for="purple">Purple</label>
+            </li>
+            <li id="green-button" onclick="hamburgerMenu()">
+                <input type="radio" name="color" value="green">
+                <label for="green">Green</label>
+            </li>
+        </ul>
+
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

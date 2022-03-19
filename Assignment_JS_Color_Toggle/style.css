@@ -1,0 +1,91 @@
+.body {
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 60px auto;
+}
+
+#colortext {
+    position: absolute;
+    top: -5px;
+}
+
+#hamburger {
+    width: 50px;
+    margin: -5px;
+    cursor: pointer;
+}
+
+#hamburger:hover {
+    opacity: 0.5;
+}
+
+.slide {
+   transform: none;
+   transition: none;
+}
+
+.hamburger-menu {
+   position: fixed;
+   left: 0px;
+   top: 40px;
+   display: block;
+   list-style:none;
+   margin-left: -340px;
+   width: 300px;
+   cursor: pointer;
+   z-index: 1000;
+   visibility: hidden;
+}
+
+#home-button {
+    padding: 15px;
+    border: 1px solid #b3bbb0;
+    background-color: #d8d8d8;
+}
+
+#red-button {
+    padding: 15px;
+    border: 1px solid #b3bbb0;
+    background-color: #F63600;
+}
+
+#orange-button {
+    padding: 15px;
+    border: 1px solid #b3bbb0;
+    background-color: #F9a100;
+}
+
+#purple-button {
+    padding: 15px;
+    border: 1px solid #b3bbb0;
+    background-color: #942b8e;
+}
+
+#green-button {
+    padding: 15px;
+    border: 1px solid #b3bbb0;
+    background-color: #308e02;
+}
+
+.body-home {
+    background-color: #d9d9d9;
+}
+
+.body-red {
+    background-color: #F63600;
+}
+
+.body-orange {
+    background-color: #F9a100;
+}
+
+.body-purple {
+    background-color: #942b8e;
+}
+
+.body-green {
+    background-color: #308e02;
+}
